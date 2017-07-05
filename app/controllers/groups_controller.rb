@@ -27,7 +27,7 @@ end
 
    @group.update(group_params)
 
-   recirect_to groups_path, notice: "Update success"
+   redirect_to groups_path, notice: "Update success"
  end
 
  private
